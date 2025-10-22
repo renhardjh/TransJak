@@ -1,0 +1,18 @@
+{
+  "name": "TransJak",
+  "displayName": "TransJak",
+  "ios": {
+    "bundleIdentifier": "org.reactjs.native.example.TransJak",
+    "config": {
+      "googleMapsApiKey":  "process.env.GOOGLE_MAPS_API_KEY"
+    }
+  },
+  "android": {
+    "bundleIdentifier": "org.reactjs.native.example.TransJak",
+    "config": {
+      "googleMaps": {
+        "apiKey": "process.env.GOOGLE_MAPS_API_KEY"
+      }
+    }
+  }
+}

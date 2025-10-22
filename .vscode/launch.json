@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "reactnative",
+      "request": "launch",
+      "name": "Launch React Native (select platform)",
+      "program": "${workspaceFolder}/index.js",
+      "cwd": "${workspaceFolder}",
+      "platform": "${input:platform}",
+      "preLaunchTask": "Start Metro"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "platform",
+      "type": "pickString",
+      "description": "Select the platform to run",
+      "options": [
+        "android",
+        "ios"
+      ]
+    }
+  ]
+}
