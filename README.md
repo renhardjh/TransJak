@@ -1,6 +1,12 @@
-# 🚌 Transjakarta Fleet Tracker
+# 🚌 Transjak Fleet Tracker
 
 Aplikasi *mobile* yang dikembangkan menggunakan React Native dan TypeScript untuk memonitor data kendaraan Transjakarta secara *real-time* (menggunakan data publik MBTA sebagai simulasi API).
+
+
+
+https://github.com/user-attachments/assets/31d35810-1195-4c75-84a8-2f0f8fe7b75f
+
+
 
 ## Daftar Isi
 1. [Fitur Utama](#1-fitur-utama)
